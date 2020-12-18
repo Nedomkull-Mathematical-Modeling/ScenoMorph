@@ -51,7 +51,7 @@ class ControlForm extends React.Component {
 
     render() {
         return (
-            <Paper variant="outlined" style={{backgroundColor: "#f5f5f5"}}>
+            <Paper variant="outlined" style={{backgroundColor: "#fafafa"}}>
                 <form className={"control-form"}>
                     {
                         this.props.parameters.map((parameter, parameterIndex) => {

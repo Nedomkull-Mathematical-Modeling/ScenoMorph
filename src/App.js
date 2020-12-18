@@ -8,7 +8,6 @@ import Grid from "@material-ui/core/Grid";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 
-
 // Or Create your Own theme:
 const theme = createMuiTheme({
   palette: {
@@ -51,7 +50,7 @@ function App() {
               <SolutionsAndExport></SolutionsAndExport>
         </Grid>
       </Grid>
-      <Grid container spacing={1}>
+      <Grid container spacing={3} style={{paddingTop: "0.5em"}}>
         <Grid container item xs={12} sm={3} spacing={1} direction="column" justify="space-around">
             <ControlForm></ControlForm>
         </Grid>

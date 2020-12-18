@@ -79,12 +79,12 @@ class SolutionsAndExport extends React.Component {
                     </DialogTitle>
                     <DialogContent dividers >
                         <TableContainer component={Paper} style={{overflowX: "hidden"}}>
-                          <Table aria-label="simple table">
-                            <TableHead style={{backgroundColor: "#ededed"}}>
+                          <Table className={"MuiTable"} aria-label="solution space table">
+                            <TableHead style={{textAlign: "left !important", backgroundColor: "#f4f4f4"}}>
                               <TableRow>
                                   {
                                       this.props.parameters.map(parameter => {
-                                          return <TableCell key={parameter} style={{fontWeight: "bold"}}>{parameter}</TableCell>
+                                          return <TableCell key={parameter} style={{fontWeight: "bold", border: "1px solid silver"}}>{parameter}</TableCell>
                                       })
                                   }
                               </TableRow>

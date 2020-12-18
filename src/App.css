@@ -14,24 +14,6 @@
     }
 }
 
-.addButton {
-    border: none;
-    background: #7fb909;
-    color: #fff;
-    padding: .6em;
-    margin-top: .3em;
-    margin-bottom: .6em;
-}
-
-.submitButton {
-    border: none;
-    background: #7fb909;
-    color: #fff;
-    padding: .6em;
-    margin-top: .3em;
-    margin-bottom: .6em;
-}
-
 .control-form {
     padding-left: 1em;
     padding-right: 1em;
@@ -45,33 +27,34 @@
     flex-direction: column;
 }
 
-.control-form-input-field {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+
+.MuiTableCell-root {
+    font-size: small !important;
+    padding: 6px !important;
 }
 
-.table-container {
-    display: flex;
-    align-content: center;
-    align-items: flex-start;
-    justify-content: flex-start;
-    height: 100%;
-    width: 100%
-}
+/*.table-container {*/
+/*    display: flex;*/
+/*    align-content: center;*/
+/*    align-items: flex-start;*/
+/*    justify-content: flex-start;*/
+/*    height: 100%;*/
+/*    width: 100%*/
+/*}*/
 
-.table-container > table {
-    width: 80%;
-    height: 100%;
-    max-height: 700px;
-}
+/*.table-container > table {*/
+/*    width: 80%;*/
+/*    height: 100%;*/
+/*    max-height: 700px;*/
+/*}*/
 
-th
-{
-  font-weight: normal;
-  vertical-align: bottom;
-  text-align: center;
-    font-size: x-small;
-}
+/*th*/
+/*{*/
+/*  font-weight: normal;*/
+/*  vertical-align: bottom;*/
+/*  text-align: center;*/
+/*    font-size: x-small;*/
+/*}*/
 
 th span {
     -ms-writing-mode: tb-rl;
@@ -83,8 +66,15 @@ th span {
 
 .label-cell {
     white-space: nowrap;
-    text-align: right;
+    text-align: right !important;
 }
+
+.header-label-cell {
+    vertical-align: bottom !important;
+    border: 0 solid black !important;
+    text-align:center !important;
+}
+
 td {
   border: 1px solid silver;
   /*min-width: 0.5em;*/
@@ -106,32 +96,3 @@ td {
     /*background-color: red;*/
     background-color: orangered;
 }
-
-.minus3 {
-    background-color: #801535;
-}
-
-.minus2 {
-    background-color: #f2703c;
-}
-
-.minus1 {
-    background-color: #FDBF6F;
-}
-
-.zero {
-    background-color: #FFFFBF;
-}
-
-.plus1 {
-    background-color: #B7E075;
-}
-
-.plus2 {
-    background-color: #4DB15D; /*#ff5333;*/
-}
-
-.plus3 {
-    background-color: #5DBB46;
-}
-
