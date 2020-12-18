@@ -34,7 +34,7 @@ function App() {
               alignItems="flex-start"
               spacing={0}
             >
-                <img src="/xm.png" height="80"/>
+                <img src="/xm.png" height="80" alt="Scenomorph logo"/>
                 <h1>ScenoMorph</h1>
             </Grid>
             <Grid
