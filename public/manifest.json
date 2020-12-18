@@ -1,0 +1,20 @@
+{
+  "short_name": "ScenoMorph",
+  "name": "ScenoMorph",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "128x128",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "xm.png",
+      "type": "image/png",
+      "sizes": "233x233"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

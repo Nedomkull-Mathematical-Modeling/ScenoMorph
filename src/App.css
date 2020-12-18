@@ -1,0 +1,137 @@
+#root {
+  height: 96%;
+  padding: 1em;
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .header-row > h1 {
+        font-size: 12px;
+    }
+}
+
+.addButton {
+    border: none;
+    background: #7fb909;
+    color: #fff;
+    padding: .6em;
+    margin-top: .3em;
+    margin-bottom: .6em;
+}
+
+.submitButton {
+    border: none;
+    background: #7fb909;
+    color: #fff;
+    padding: .6em;
+    margin-top: .3em;
+    margin-bottom: .6em;
+}
+
+.control-form {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.control-form-fields {
+    margin-top:1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-form-input-field {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.table-container {
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%
+}
+
+.table-container > table {
+    width: 80%;
+    height: 100%;
+    max-height: 700px;
+}
+
+th
+{
+  font-weight: normal;
+  vertical-align: bottom;
+  text-align: center;
+    font-size: x-small;
+}
+
+th span {
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+}
+
+.label-cell {
+    white-space: nowrap;
+    text-align: right;
+}
+td {
+  border: 1px solid silver;
+  /*min-width: 0.5em;*/
+  /*  min-height: 0.5em;*/
+    font-size: x-small;
+}
+
+.black-cell {
+    /*background-color: black;*/
+    background-color: #1e1e1e;
+}
+
+.consistent {
+    /*background-color: green;*/
+    background-color: forestgreen;
+}
+
+.inconsistent {
+    /*background-color: red;*/
+    background-color: orangered;
+}
+
+.minus3 {
+    background-color: #801535;
+}
+
+.minus2 {
+    background-color: #f2703c;
+}
+
+.minus1 {
+    background-color: #FDBF6F;
+}
+
+.zero {
+    background-color: #FFFFBF;
+}
+
+.plus1 {
+    background-color: #B7E075;
+}
+
+.plus2 {
+    background-color: #4DB15D; /*#ff5333;*/
+}
+
+.plus3 {
+    background-color: #5DBB46;
+}
+

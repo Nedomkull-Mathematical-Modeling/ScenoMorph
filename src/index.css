@@ -1,0 +1,104 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: hsla(0, 0%, 0%, 0.8);
+    background-color: #fafafa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.contentpanes {
+    padding: 3em 2em 2em;
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .contentpanes {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+.leftpane {
+    flex: 1;
+
+}
+
+@media (max-width: 1024px) {
+    .leftpane {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        float: none;
+
+    }
+}
+
+.leftpane > form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rightpane {
+    flex: 3;
+}
+
+@media (max-width: 1024px) {
+    .rightpane {
+        margin-top: 2em;
+        width: 100%;
+        height: auto;
+        position: inherit;
+        float: none;
+        border-collapse: collapse;
+        margin-left: 0;
+    }
+}
+
+.toppane {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.header-row {
+  display: flex;
+    flex-direction: column;
+
+  justify-content: right;
+}
+
+.solution-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.solution-row > a > h4 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+h5 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+hr {
+    width:100%;
+    margin-top:1em;
+    margin-bottom:1em
+}
