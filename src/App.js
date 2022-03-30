@@ -6,7 +6,7 @@ import SolutionsAndExport from "./SolutionsAndExport";
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-
+import xm from './xm.png'
 
 // Or Create your Own theme:
 const theme = createMuiTheme({
@@ -33,7 +33,7 @@ function App() {
               alignItems="flex-start"
               spacing={0}
             >
-                <img src="/xm.png" height="80" alt="Scenomorph logo"/>
+                <img src={xm} height="80" alt="Scenomorph logo"/>
                 <h1>ScenoMorph</h1>
             </Grid>
             <Grid
