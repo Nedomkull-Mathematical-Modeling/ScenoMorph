@@ -2,6 +2,8 @@
 
 A React-app for performing scenario modelling with morphological analysis.
 
+The application can be found in compiled form at https://scenomorph.nedomkull.com.
+
 ## References
 - [Iver Johansen, Scenario modelling with morphological analysis](https://sci-hub.se/10.1016/j.techfore.2017.05.016)
 - [Scenarioklasser i Forsvarsstudie 2007: En morfologisk analyse
